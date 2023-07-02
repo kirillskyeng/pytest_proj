@@ -3,7 +3,7 @@ from utils import arrs
 
 def test_get():
     assert arrs.get([1, 2, 3], 1, "test") == 2
-    assert arrs.get(["test", 1, 2], 0, "test") == "test"
+    assert arrs.get(["test", "no_test", "no_test"], 0, "test") == "test"
 
 
 def test_slice():
