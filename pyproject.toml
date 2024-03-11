@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "11-03-poe"
+version = "0.1.0"
+description = ""
+authors = ["Vyacheslav <faer2325@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tree = "^0.2.4"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
